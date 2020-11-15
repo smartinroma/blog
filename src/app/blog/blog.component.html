@@ -1,0 +1,13 @@
+<button [routerLink]="['/new']">AÑADIR POST</button>
+
+<div>
+    <div *ngFor="let publi of publicaciones" class="publicacion">
+        <img [src]="publi.imagen">
+        <h5>{{publi.titulo}}</h5>
+        <p>{{publi.texto}}</p>
+        <p>{{publi.autor}}</p>
+        <p>{{publi.fecha}}</p>
+        <p>{{publi.categoria}}</p>
+        <button class="btn btn-sm btn-secondary" (click)="onClickBorrar()">Eliminar</button>
+    </div>
+</div>
