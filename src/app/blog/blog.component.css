@@ -6,14 +6,16 @@ button{
 }
 
 .publicacion{
-    width: 250px;
+    width: 250px; 
     margin: 15px;
     padding: 10px;
     background-color: #999;
     text-align: center;
     float: left;
+    border-radius: 20px;
 }
 
 .publicacion img{
     width: 100%;
+    border-radius: 10px;
 }
